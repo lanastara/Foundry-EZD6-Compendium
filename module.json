@@ -244,6 +244,17 @@
         "ASSISTANT": "OWNER"
       },
       "system": "ezd6"
+    },
+    {
+      "name": "ezd6-core-monsters",
+      "label": "Monsters",
+      "path": "packs/handy-bits.db",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "ezd6"
     }
   ]
 }
