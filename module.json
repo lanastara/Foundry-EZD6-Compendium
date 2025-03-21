@@ -248,7 +248,7 @@
     {
       "name": "ezd6-core-monsters",
       "label": "Monsters",
-      "path": "packs/handy-bits.db",
+      "path": "packs/monsters.db",
       "type": "Actor",
       "ownership": {
         "PLAYER": "NONE",
