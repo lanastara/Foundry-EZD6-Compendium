@@ -24,9 +24,75 @@
   "url": "#{URL}#",
   "manifest": "#{MANIFEST}#",
   "download": "#{DOWNLOAD}#",
+  "packFolders": [
+    {
+      "name": "EZD6 Core",
+      "sorting": "m",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "folders":[
+        {
+          "name": "Character Creation",
+          "sorting": "m",
+          "ownership": {
+            "PLAYER": "OBSERVER",
+            "ASSISTANT": "OWNER"
+          },
+          "packs": [
+            "ezd6-core-hero-paths",
+            "ezd6-core-species",
+            "ezd6-core-inclinations",
+            "ezd6-core-circles-of-sorcery",
+            "ezd6-core-boons",
+            "ezd6-core-features"
+          ]
+        },
+        {
+          "name": "Equipment",
+          "sorting": "m",
+          "ownership": {
+            "PLAYER": "OBSERVER",
+            "ASSISTANT": "OWNER"
+          },
+          "packs": [
+            "ezd6-core-common-gear",
+            "ezd6-core-specialty-gear",
+            "ezd6-core-equipment"
+          ]
+        },
+        {
+          "name": "Magick Treasure",
+          "sorting": "m",
+          "ownership": {
+            "PLAYER": "OBSERVER",
+            "ASSISTANT": "OWNER"
+          },
+          "packs": [
+            "ezd6-core-magick-effects",
+            "ezd6-core-magick-treasure",
+            "ezd6-core-random-magick-treasure"
+          ]
+        },
+        {
+          "name": "Handy Bits",
+          "sorting": "m",
+          "ownership": {
+            "PLAYER": "OBSERVER",
+            "ASSISTANT": "OWNER"
+          },
+          "packs": [
+            "ezd6-core-handy-bits",
+            "ezd6-core-handy-bits-tables"
+          ]
+        }
+      ]
+    }
+  ],
   "packs": [
     {
-      "name": "handy-bits-tables",
+      "name": "ezd6-core-handy-bits-tables",
       "label": "Handy Bits Tables",
       "path": "packs/handy-bits-tables",
       "type": "RollTable",
@@ -37,7 +103,7 @@
       }
     },
     {
-      "name": "hero-paths",
+      "name": "ezd6-core-hero-paths",
       "label": "Hero Paths",
       "path": "packs/hero-paths",
       "type": "Item",
@@ -48,7 +114,7 @@
       }
     },
     {
-      "name": "species",
+      "name": "ezd6-core-species",
       "label": "Species",
       "path": "packs/species",
       "type": "Item",
@@ -59,7 +125,7 @@
       }
     },
     {
-      "name": "inclinations",
+      "name": "ezd6-core-inclinations",
       "label": "Inclinations",
       "path": "packs/inclinations",
       "type": "Item",
@@ -70,7 +136,7 @@
       }
     },
     {
-      "name": "circles-of-sorcery",
+      "name": "ezd6-core-circles-of-sorcery",
       "label": "Circles Of Sorcery",
       "path": "packs/circles-of-sorcery",
       "type": "Item",
@@ -81,7 +147,7 @@
       }
     },
     {
-      "name": "common-gear",
+      "name": "ezd6-core-common-gear",
       "label": "Common Gear",
       "path": "packs/common-gear",
       "type": "Item",
@@ -92,7 +158,7 @@
       }
     },
     {
-      "name": "specialty-gear",
+      "name": "ezd6-core-specialty-gear",
       "label": "Specialty Gear",
       "path": "packs/specialty-gear",
       "type": "Item",
@@ -103,7 +169,7 @@
       }
     },
     {
-      "name": "equipment",
+      "name": "ezd6-core-equipment",
       "label": "Equipment",
       "path": "packs/equipment",
       "type": "RollTable",
@@ -114,7 +180,7 @@
       }
     },
     {
-      "name": "magick-treasure",
+      "name": "ezd6-core-magick-treasure",
       "label": "Magick Treasure",
       "path": "packs/magick-treasure",
       "type": "Item",
@@ -125,7 +191,7 @@
       }
     },
     {
-      "name": "random-magick-treasure",
+      "name": "ezd6-core-random-magick-treasure",
       "label": "Random Magick Treasure",
       "path": "packs/random-magick-treasure",
       "type": "RollTable",
@@ -136,7 +202,7 @@
       }
     },
     {
-      "name": "boons",
+      "name": "ezd6-core-boons",
       "label": "Boons",
       "path": "packs/boons",
       "type": "Item",
@@ -147,7 +213,7 @@
       }
     },
     {
-      "name": "features",
+      "name": "ezd6-core-features",
       "label": "Features",
       "path": "packs/features",
       "type": "Item",
@@ -158,7 +224,7 @@
       }
     },
     {
-      "name": "magick-effects",
+      "name": "ezd6-core-magick-effects",
       "label": "Magick Effects",
       "path": "packs/magick-effects",
       "type": "Item",
@@ -169,7 +235,7 @@
       }
     },
     {
-      "name": "handy-bits",
+      "name": "ezd6-core-handy-bits",
       "label": "Handy Bits",
       "path": "packs/handy-bits",
       "type": "JournalEntry",
