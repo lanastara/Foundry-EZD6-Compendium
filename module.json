@@ -1,0 +1,180 @@
+{
+  "id": "ezd6-compendium",
+  "title": "EZD6 Compendium",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "ezd6",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "authors": [
+    {
+      "name": "Lilly",
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "name": "handy-bits-tables",
+      "label": "Handy Bits Tables",
+      "path": "packs/handy-bits-tables",
+      "type": "RollTable",
+      "system": "ezd6",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "hero-paths",
+      "label": "Hero Paths",
+      "path": "packs/hero-paths",
+      "type": "Item",
+      "system": "ezd6",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "species",
+      "label": "Species",
+      "path": "packs/species",
+      "type": "Item",
+      "system": "ezd6",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "inclinations",
+      "label": "Inclinations",
+      "path": "packs/inclinations",
+      "type": "Item",
+      "system": "ezd6",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "circles-of-sorcery",
+      "label": "Circles Of Sorcery",
+      "path": "packs/circles-of-sorcery",
+      "type": "Item",
+      "system": "ezd6",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "common-gear",
+      "label": "Common Gear",
+      "path": "packs/common-gear",
+      "type": "Item",
+      "system": "ezd6",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "specialty-gear",
+      "label": "Specialty Gear",
+      "path": "packs/specialty-gear",
+      "type": "Item",
+      "system": "ezd6",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "equipment",
+      "label": "Equipment",
+      "path": "packs/equipment",
+      "type": "RollTable",
+      "system": "ezd6",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "magick-treasure",
+      "label": "Magick Treasure",
+      "path": "packs/magick-treasure",
+      "type": "Item",
+      "system": "ezd6",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "random-magick-treasure",
+      "label": "Random Magick Treasure",
+      "path": "packs/random-magick-treasure",
+      "type": "RollTable",
+      "system": "ezd6",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "boons",
+      "label": "Boons",
+      "path": "packs/boons",
+      "type": "Item",
+      "system": "ezd6",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "features",
+      "label": "Features",
+      "path": "packs/features",
+      "type": "Item",
+      "system": "ezd6",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "magick-effects",
+      "label": "Magick Effects",
+      "path": "packs/magick-effects",
+      "type": "Item",
+      "system": "ezd6",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "handy-bits",
+      "label": "Handy Bits",
+      "path": "packs/handy-bits",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "ezd6"
+    }
+  ]
+}
