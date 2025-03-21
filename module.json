@@ -1,7 +1,7 @@
 {
   "id": "ezd6-compendium",
   "title": "EZD6 Compendium",
-  "version": "1.0.0",
+  "version": "#{VERSION}#",
   "compatibility": {
     "minimum": "12",
     "verified": "12"
@@ -17,10 +17,13 @@
   },
   "authors": [
     {
-      "name": "Lilly",
+      "name": "Lilly Mannhal",
       "flags": {}
     }
   ],
+  "url": "#{URL}#",
+  "manifest": "#{MANIFEST}#",
+  "download": "#{DOWNLOAD}#",
   "packs": [
     {
       "name": "handy-bits-tables",
