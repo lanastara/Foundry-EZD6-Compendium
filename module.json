@@ -105,7 +105,7 @@
     {
       "name": "ezd6-core-hero-paths",
       "label": "Hero Paths",
-      "path": "packs/hero-paths",
+      "path": "packs/hero-paths.db",
       "type": "Item",
       "system": "ezd6",
       "ownership": {
@@ -116,7 +116,7 @@
     {
       "name": "ezd6-core-species",
       "label": "Species",
-      "path": "packs/species",
+      "path": "packs/species.db",
       "type": "Item",
       "system": "ezd6",
       "ownership": {
@@ -127,7 +127,7 @@
     {
       "name": "ezd6-core-inclinations",
       "label": "Inclinations",
-      "path": "packs/inclinations",
+      "path": "packs/inclinations.db",
       "type": "Item",
       "system": "ezd6",
       "ownership": {
@@ -138,7 +138,7 @@
     {
       "name": "ezd6-core-circles-of-sorcery",
       "label": "Circles Of Sorcery",
-      "path": "packs/circles-of-sorcery",
+      "path": "packs/circles-of-sorcery.db",
       "type": "Item",
       "system": "ezd6",
       "ownership": {
@@ -149,7 +149,7 @@
     {
       "name": "ezd6-core-common-gear",
       "label": "Common Gear",
-      "path": "packs/common-gear",
+      "path": "packs/common-gear.db",
       "type": "Item",
       "system": "ezd6",
       "ownership": {
@@ -160,7 +160,7 @@
     {
       "name": "ezd6-core-specialty-gear",
       "label": "Specialty Gear",
-      "path": "packs/specialty-gear",
+      "path": "packs/specialty-gear.db",
       "type": "Item",
       "system": "ezd6",
       "ownership": {
@@ -171,7 +171,7 @@
     {
       "name": "ezd6-core-equipment",
       "label": "Equipment",
-      "path": "packs/equipment",
+      "path": "packs/equipment.db",
       "type": "RollTable",
       "system": "ezd6",
       "ownership": {
@@ -182,7 +182,7 @@
     {
       "name": "ezd6-core-magick-treasure",
       "label": "Magick Treasure",
-      "path": "packs/magick-treasure",
+      "path": "packs/magick-treasure.db",
       "type": "Item",
       "system": "ezd6",
       "ownership": {
@@ -193,7 +193,7 @@
     {
       "name": "ezd6-core-random-magick-treasure",
       "label": "Random Magick Treasure",
-      "path": "packs/random-magick-treasure",
+      "path": "packs/random-magick-treasure.db",
       "type": "RollTable",
       "system": "ezd6",
       "ownership": {
@@ -215,7 +215,7 @@
     {
       "name": "ezd6-core-features",
       "label": "Features",
-      "path": "packs/features",
+      "path": "packs/features.db",
       "type": "Item",
       "system": "ezd6",
       "ownership": {
@@ -226,7 +226,7 @@
     {
       "name": "ezd6-core-magick-effects",
       "label": "Magick Effects",
-      "path": "packs/magick-effects",
+      "path": "packs/magick-effects.db",
       "type": "Item",
       "system": "ezd6",
       "ownership": {
@@ -237,7 +237,7 @@
     {
       "name": "ezd6-core-handy-bits",
       "label": "Handy Bits",
-      "path": "packs/handy-bits",
+      "path": "packs/handy-bits.db",
       "type": "JournalEntry",
       "ownership": {
         "PLAYER": "OBSERVER",
