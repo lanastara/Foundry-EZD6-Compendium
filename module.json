@@ -204,7 +204,7 @@
     {
       "name": "ezd6-core-boons",
       "label": "Boons",
-      "path": "packs/boons",
+      "path": "packs/boons.db",
       "type": "Item",
       "system": "ezd6",
       "ownership": {
