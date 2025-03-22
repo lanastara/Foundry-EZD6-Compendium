@@ -24,6 +24,59 @@
   "url": "#{URL}#",
   "manifest": "#{MANIFEST}#",
   "download": "#{DOWNLOAD}#",
+  "packFolders":[
+    {
+      "name": "Core",
+      "sorting": "m",
+      "folders": [
+        {
+          "name": "Character Creation",
+          "sorting": "m",
+          "packs": [
+            "hero-paths",
+            "species",
+            "inclinations",
+            "circles-of-sorcery",
+            "boons",
+            "features"
+          ]
+        },
+        {
+          "name": "Equipment",
+          "sorting": "m",
+          "packs": [
+            "common-gear",
+            "specialty-gear",
+            "equipment"
+          ]
+        },
+        {
+          "name": "Monsters",
+          "sorting": "m",
+          "packs": [
+            "monsters"
+          ]
+        },
+        {
+          "name": "Magick Treasure",
+          "sorting": "m",
+          "packs": [
+            "magick-effects",
+            "magick-treasure",
+            "random-magick-treasure"
+          ]
+        },
+        {
+          "name": "Handy Bits",
+          "sorting": "m",
+          "packs": [
+            "handy-bits",
+            "handy-bits-tables"
+          ]
+        }
+      ]
+    }
+  ],
   "packs": [
     {
       "name": "handy-bits-tables",
