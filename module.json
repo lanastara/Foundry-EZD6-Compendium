@@ -26,52 +26,116 @@
   "download": "#{DOWNLOAD}#",
   "packFolders":[
     {
-      "name": "Core",
+      "name": "EZD6-Compendium",
       "sorting": "m",
       "folders": [
         {
-          "name": "Character Creation",
+          "name": "Core",
           "sorting": "m",
-          "packs": [
-            "hero-paths",
-            "species",
-            "inclinations",
-            "circles-of-sorcery",
-            "boons",
-            "features"
+          "folders": [
+            {
+              "name": "Character Creation",
+              "sorting": "m",
+              "packs": [
+                "hero-paths",
+                "species",
+                "inclinations",
+                "circles-of-sorcery",
+                "boons",
+                "features"
+              ]
+            },
+            {
+              "name": "Equipment",
+              "sorting": "m",
+              "packs": [
+                "common-gear",
+                "specialty-gear",
+                "equipment"
+              ]
+            },
+            {
+              "name": "Monsters",
+              "sorting": "m",
+              "packs": [
+                "monsters"
+              ]
+            },
+            {
+              "name": "Magick Treasure",
+              "sorting": "m",
+              "packs": [
+                "magick-effects",
+                "magick-treasure",
+                "random-magick-treasure"
+              ]
+            },
+            {
+              "name": "Handy Bits",
+              "sorting": "m",
+              "packs": [
+                "handy-bits",
+                "handy-bits-tables"
+              ]
+            }
           ]
         },
         {
-          "name": "Equipment",
+          "name": "WastedWorld",
           "sorting": "m",
-          "packs": [
-            "common-gear",
-            "specialty-gear",
-            "equipment"
-          ]
-        },
-        {
-          "name": "Monsters",
-          "sorting": "m",
-          "packs": [
-            "monsters"
-          ]
-        },
-        {
-          "name": "Magick Treasure",
-          "sorting": "m",
-          "packs": [
-            "magick-effects",
-            "magick-treasure",
-            "random-magick-treasure"
-          ]
-        },
-        {
-          "name": "Handy Bits",
-          "sorting": "m",
-          "packs": [
-            "handy-bits",
-            "handy-bits-tables"
+          "folders": [
+            {
+              "name": "Character Creation",
+              "sorting": "m",
+              "packs": [
+                "ww-survivor-paths",
+                "ww-inclinations",
+                "ww-aspects",
+                "ww-boons",
+                "ww-edges"
+              ]
+            },
+            {
+              "name": "Equipment",
+              "sorting": "m",
+              "packs": [
+                "ww-standard-weapons",
+                "ww-modded-weapons",
+                "ww-special-guns",
+                "ww-items",
+                "ww-drugs"
+              ]
+            },
+            {
+              "name": "Vehicles",
+              "sorting": "m",
+              "packs": [
+                "mm-vehicles",
+                "mm-vehicle-mods"
+              ]
+            },
+            {
+              "name": "Denizens",
+              "sorting": "m",
+              "packs": [
+                "ww-denizens"
+              ]
+            },
+            {
+              "name": "Treasures of the Wasteland",
+              "sorting": "m",
+              "packs": [
+                "ww-wasteland-treasure",
+                "ww-random-treasure"
+              ]
+            },
+            {
+              "name": "Mission Maker",
+              "sorting": "m",
+              "packs": [
+                "ww-mission-maker-tables"
+              ]
+            }
           ]
         }
       ]
@@ -242,6 +306,182 @@
         "ASSISTANT": "OWNER"
       },
       "system": "ezd6"
-    } 
+    }, 
+    {
+      "name": "ww-survivor-paths",
+      "label": "Survivor Paths",
+      "path": "packs/ww/ww-survivor-paths",
+      "type": "Item",
+      "system": "ezd6",
+      "ownership":{
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "ww-inclinations",
+      "label": "Inclinations",
+      "path": "packs/ww/ww-inclinations",
+      "type": "Item",
+      "system": "ezd6",
+      "ownership":{
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "ww-aspects",
+      "label": "Random Aspects",
+      "path": "packs/ww/ww-aspects",
+      "type": "RollTable",
+      "system": "ezd6",
+      "ownership":{
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "ww-boons",
+      "label": "Boons",
+      "path": "packs/ww/ww-boons",
+      "type": "Item",
+      "system": "ezd6",
+      "ownership":{
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "ww-edges",
+      "label": "Edges",
+      "path": "packs/ww/ww-edges",
+      "type": "Item",
+      "system": "ezd6",
+      "ownership":{
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "ww-standard-weapons",
+      "label": "Standard Weapons",
+      "path": "packs/ww/ww-standard-weapons",
+      "type": "Item",
+      "system": "ezd6",
+      "ownership":{
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "ww-modded-weapons",
+      "label": "Modded Weapons",
+      "path": "packs/ww/ww-modded-weapons",
+      "type": "Item",
+      "system": "ezd6",
+      "ownership":{
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "ww-special-guns",
+      "label": "Special Guns",
+      "path": "packs/ww/ww-special-guns",
+      "type": "Item",
+      "system": "ezd6",
+      "ownership":{
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "ww-items",
+      "label": "Items",
+      "path": "packs/ww/ww-items",
+      "type": "Item",
+      "system": "ezd6",
+      "ownership":{
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "ww-drugs",
+      "label": "Drugs",
+      "path": "packs/ww/ww-drugs",
+      "type": "Item",
+      "system": "ezd6",
+      "ownership":{
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "mm-vehicles",
+      "label": "Vehicles",
+      "path": "packs/ww/mm-vehicles",
+      "type": "Actor",
+      "system": "ezd6",
+      "ownership":{
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "mm-vehicle-mods",
+      "label": "Vehicle Mods",
+      "path": "packs/ww/mm-vehicle-mods",
+      "type": "Item",
+      "system": "ezd6",
+      "ownership":{
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "ww-denizens",
+      "label": "Denizens",
+      "path": "packs/ww/ww-denizens",
+      "type": "Actor",
+      "system": "ezd6",
+      "ownership":{
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "ww-wasteland-treasure",
+      "label": "Treasures of the Wasteland",
+      "path": "packs/ww/ww-wasteland-treasure",
+      "type": "Item",
+      "system": "ezd6",
+      "ownership":{
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "ww-random-treasure",
+      "label": "Random Treasure",
+      "path": "packs/ww/ww-random-treasure",
+      "type": "RollTable",
+      "system": "ezd6",
+      "ownership":{
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "ww-mission-maker-tables",
+      "label": "Mission Maker Tables",
+      "path": "packs/ww/ww-mission-maker-tables",
+      "type": "RollTable",
+      "system": "ezd6",
+      "ownership":{
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    }
   ]
 }
