@@ -1,0 +1,5 @@
+2025/03/22-09:39:29.363153 7f44b73cbb38 Delete type=3 #1
+2025/03/22-15:38:17.092041 7f3fb4573b38 Level-0 table #5: started
+2025/03/22-15:38:17.100377 7f3fb4573b38 Level-0 table #5: 5785 bytes OK
+2025/03/22-15:38:17.110746 7f3fb4573b38 Delete type=0 #3
+2025/03/22-15:38:17.149603 7f3fb4573b38 Manual compaction at level-0 from '!items!2njHl2Z36LrGhG5A' @ 72057594037927935 : 1 .. '!items!uFDP1sQpLwVIwzb2' @ 0 : 0; will stop at (end)
