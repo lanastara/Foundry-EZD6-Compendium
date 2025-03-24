@@ -58,7 +58,8 @@
               "name": "Monsters",
               "sorting": "m",
               "packs": [
-                "monsters"
+                "monsters",
+                "random-monster"
               ]
             },
             {
@@ -118,7 +119,8 @@
               "name": "Denizens",
               "sorting": "m",
               "packs": [
-                "ww-denizens"
+                "ww-denizens",
+                "ww-random-denizen"
               ]
             },
             {
@@ -375,7 +377,7 @@
     },
     {
       "name": "ww-modded-weapons",
-      "label": "Modded Weapons",
+      "label": "Modded Melee Weapons",
       "path": "packs/ww/ww-modded-weapons",
       "type": "Item",
       "system": "ezd6",
@@ -386,7 +388,7 @@
     },
     {
       "name": "ww-special-guns",
-      "label": "Special Guns",
+      "label": "Modded and Special Guns",
       "path": "packs/ww/ww-special-guns",
       "type": "Item",
       "system": "ezd6",
@@ -476,6 +478,28 @@
       "name": "ww-mission-maker-tables",
       "label": "Mission Maker Tables",
       "path": "packs/ww/ww-mission-maker-tables",
+      "type": "RollTable",
+      "system": "ezd6",
+      "ownership":{
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "ww-random-denizen",
+      "label": "Random Denizen",
+      "path": "packs/ww/ww-random-denizen",
+      "type": "RollTable",
+      "system": "ezd6",
+      "ownership":{
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "random-monster",
+      "label": "Random Monster",
+      "path": "packs/core/random-monster",
       "type": "RollTable",
       "system": "ezd6",
       "ownership":{
