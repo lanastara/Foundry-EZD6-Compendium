@@ -103,6 +103,8 @@ jobs:
                   URL: ${{ env.project_url }}
                   MANIFEST: ${{ env.latest_manifest_url }}
                   DOWNLOAD: ${{ env.release_system_url }}
+                  README: ${{ env.readme_url }}
+                  LICENSE: ${{ env.license_url }}
 
             # Create a "discord-voice-indicator.zip" archive containing all the system's required files.
             # If you have other directories or files that will need to be added to
