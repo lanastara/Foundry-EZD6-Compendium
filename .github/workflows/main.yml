@@ -36,6 +36,9 @@ env:
     # The URL used for the system's "Project URL" link on FoundryVTT's website.
     project_url: 'https://github.com/${{github.repository}}'
 
+    readme_url: 'https://raw.github.com/${{github.repository}}/refs/heads/main/README.md'
+    license_url: 'https://raw.github.com/${{github.repository}}/refs/heads/main/LICENSE.md'
+
     # A URL that will always point to the latest manifest.
     # FoundryVTT uses this URL to check whether the current module version that
     # is installed is the latest version. This URL should NOT change,

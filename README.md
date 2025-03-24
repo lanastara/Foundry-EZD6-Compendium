@@ -13,8 +13,17 @@ Currently implemented:
   * [x] Boons unsed in other entries like Hero Paths
   * [x] Circles of Magic
   * [x] Hero Path Features (e.g.: Shield Sacrifice)
-  * [ ] Monsters
+  * [x] Monsters
   * [x] Equipment (including roll tables for random Gear)
   * [x] Magick Treasure (including roll tables for random magick items)
   * [x] Handy bits
+* Wasted World
+  * [x] Survivor Paths
+  * [x] Inclinations
+  * [x] Boons unsed in other entries like Hero Paths
+  * [x] Edges
+  * [x] Denizens
+  * [x] Equipment (including roll tables for random Gear)
+  * [x] Treasure of the Wasteland (including roll tables for random treasure)
+  * [x] Mission Maker random tables
 

@@ -2,9 +2,10 @@
   "id": "ezd6-compendium",
   "title": "EZD6 Compendium",
   "version": "#{VERSION}#",
+  "description": "Compendium for content from EZD6",
   "compatibility": {
     "minimum": "12",
-    "verified": "12"
+    "verified": "12" 
   },
   "relationships": {
     "systems": [
@@ -17,13 +18,14 @@
   },
   "authors": [
     {
-      "name": "Lilly Mannhal",
-      "flags": {}
+      "name": "Lilly Mannhal"
     }
   ],
   "url": "#{URL}#",
   "manifest": "#{MANIFEST}#",
   "download": "#{DOWNLOAD}#",
+  "license": "#{LICENSE}#",
+  "readme": "#{README}#",
   "packFolders":[
     {
       "name": "EZD6-Compendium",
